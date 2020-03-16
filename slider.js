@@ -173,7 +173,7 @@ class Slider{
                 }, 1, c);
             } else {
                 // debugger
-                this.outerWrapper.setAttribute("style", "overflow: hidden;height: " + this.getHeight() + ";padding-top: 0px;padding-bottom: 0px;margin-top: 0px;margin-bottom: 0px;");
+                this.outerWrapper.setAttribute("style", "overflow: hidden;height: " + this.getHeight() + "px;padding-top: 0px;padding-bottom: 0px;margin-top: 0px;margin-bottom: 0px;");
                 this.innerWrapper.setAttribute("style", "width: " + this.getWidth() + "px;margin-left: -" + this.getWidth() +"px;");
                 this.domObj.setAttribute("style", "visibility: visible;");
                 // Because if change the style in inside this function not working we set a timeout function!
